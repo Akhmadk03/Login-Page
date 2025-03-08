@@ -98,6 +98,81 @@ body {
     font-size: 12px;
 }
 
+.forgot-password-a {
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 12px;
+    margin: 0px auto;
+}
+
 .remember-me {
     display: flex;
 }
+
+#signup-message {
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin: 5px auto;
+}
+
+.sign-up-a {
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin: 5px auto;
+    color: black;
+}
+
+.signup-container {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid black;
+    margin: auto;
+    background-image: linear-gradient(rgb(78, 78, 150), rgb(214, 210, 210));
+    border-radius: 15px;
+}
+
+.signup-header {
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#signup {
+    display: flex;
+    padding: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    height: 30%;
+    margin: 0px auto;
+    background: transparent;
+}
+
+.signup-input {
+    display: flex;
+    padding-left: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    height: 35%;
+    margin: 5px auto;
+    background: transparent;
+    border: 2px solid black;
+}
+
+.signup-input::placeholder {
+    color: black;
+    font-size: 15px;
+}
+
+
